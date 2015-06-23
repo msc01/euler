@@ -10,7 +10,7 @@ My solutions to different of [Project Euler's](https://projecteuler.net/about) m
  * Note: identifying fibonacci numbers with a recursion gets too slow for n > 40 therefore different approach (see code).
 * Euler003: Largest prime factor of the given number 600,851,475,143.
  * This one realy gave me a hard time.
- * Finding a solution which worked for 13,195 was quite easy: 
+ * Finding a solution which worked for 13,195 was quite easy:
   * populate an array with all the factors of the given number,
   * identify the prime numbers in the array with the factors; the last one is the largest prime factor.
  * My problem: for numbers greater than 1,000,000,000 (a billion) it took ages; calculated ~200 days of run time for the given number!
