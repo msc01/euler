@@ -29,3 +29,12 @@ Euler004: Largest palindrome product.
 * check for the product, whether it is a palindrome or not,
 * store the palindroms in an array,
 * find the largest number (=palindrom) in the array.
+
+Euler005: Smallest positive number that is evenly divisible by all of the numbers from 1 to 20.
+
+* Kind of a brute force approach, but it does work
+  * going up from 1, as the smallest number is to be found
+	* Test whether x can be divided by 1, 2, 3, ... n
+	  * yes? done
+		* no? try next number
+  * do it again until (1 * 2 * 3 * ... * n)
