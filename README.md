@@ -38,3 +38,10 @@ Euler005: Smallest positive number that is evenly divisible by all of the number
 	  * yes? done
 		* no? try next number
   * do it again until (1 * 2 * 3 * ... * n)
+	
+Euler006: Sum square difference:
+
+* This one was pretty easy:
+  * Calculate the sum of squares for (up to) the given number
+  * Calculate the square of sums for (up to) the given number
+	* Subtract them.
