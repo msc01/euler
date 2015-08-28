@@ -45,3 +45,22 @@ Euler006: Sum square difference:
   * Calculate the sum of squares for (up to) the given number
   * Calculate the square of sums for (up to) the given number
 	* Subtract them.
+	
+Euler007: 10001st prime
+
+* First approach: might take too long?!
+  * until last index of array with prime numbers is <= 10.001 do
+    * look whether nbr is a prime nbr
+	    * if so, put it in array with prime numbers at index i
+		  * add one to i
+	  * add one to nbr
+	* end
+* But works...
+	
+Euler008: Largest product in a series
+
+* Put each digit of the 1000 digit large number into an element of an array
+* For each element of the array 
+  * calculate the sum of itself with its next 3 (12) following digits and
+	* put the sum into another array
+* The biggest element (max) of the other array is the one
